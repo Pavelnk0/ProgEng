@@ -1,0 +1,5 @@
+n = int(input())
+if not 0 <= n <= 10: print("Число вне диапазона"); exit()
+if n <= 3: print("0-3")
+elif n <= 6: print("3-6")
+else: print("6-10")
